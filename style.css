@@ -8,7 +8,8 @@ body
     background-color: rgb(191, 217, 255);
     height: 100vh;
     width:50vw;
-    margin:auto;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 p
@@ -144,4 +145,57 @@ li:hover
 {
     background-color: darkgray;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    body
+    {
+        width:100%;
+        margin: 0;
+        font-size: 16px;
+        height: auto;
+        min-height: 100vh;
+
+    }
+    .h1
+    {
+        font-size: 20px;
+    }
+    .container
+    {
+        width: 90%;
+    }
+   .inc-exp-container
+   {
+       width: 90%;
+   }
+   .translist
+   {
+       width: 90%;
+   }
+  .newtrans
+  {
+      width: 90%;
+      font-size: 16px;
+
+  }
+  .form-control label
+  {
+      font-size: 16px;
+  }
+  .form-control input
+  {
+      height: 3vh;
+      border-radius: 5px;
+  } 
+  .listspan
+  {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .deletebtn
+  {
+      color:red;
+      margin-left: 10px;
+  }
 }
