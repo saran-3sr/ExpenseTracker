@@ -146,7 +146,10 @@ li:hover
     background-color: darkgray;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-
+.name
+{
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     body
     {
@@ -172,6 +175,7 @@ li:hover
    .translist
    {
        width: 90%;
+       font-size: 16px;
    }
   .newtrans
   {
@@ -197,5 +201,10 @@ li:hover
   {
       color:red;
       margin-left: 10px;
+  }
+  .name
+  {
+      text-align: center;
+      font-size: 16px;
   }
 }
